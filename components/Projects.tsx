@@ -13,39 +13,39 @@ const projects = [
     year: "2025",
     type: "Full-Stack",
   },
-  {
-    number: "02",
-    title: "Project Beta",
-    description:
-      "A performant frontend application focused on [use case]. Emphasis on accessibility, animation, and responsive design across all breakpoints.",
-    tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    live: "#",
-    github: "#",
-    year: "2024",
-    type: "Frontend",
-  },
-  {
-    number: "03",
-    title: "Project Gamma",
-    description:
-      "An API-first backend service powering [product]. Built with Express, Redis caching, and deployed on AWS with full CI/CD pipeline.",
-    tags: ["Node.js", "Express", "Redis", "AWS"],
-    live: "#",
-    github: "#",
-    year: "2023",
-    type: "Backend",
-  },
-  {
-    number: "04",
-    title: "Open Source Lib",
-    description:
-      "A developer tool / utility library that [does something useful]. Used by X developers, featured on [platform]. Zero dependencies.",
-    tags: ["TypeScript", "Open Source", "npm"],
-    live: "#",
-    github: "#",
-    year: "2023",
-    type: "OSS",
-  },
+  // {
+  //   number: "02",
+  //   title: "Project Beta",
+  //   description:
+  //     "A performant frontend application focused on [use case]. Emphasis on accessibility, animation, and responsive design across all breakpoints.",
+  //   tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
+  //   live: "#",
+  //   github: "#",
+  //   year: "2024",
+  //   type: "Frontend",
+  // },
+  // {
+  //   number: "03",
+  //   title: "Project Gamma",
+  //   description:
+  //     "An API-first backend service powering [product]. Built with Express, Redis caching, and deployed on AWS with full CI/CD pipeline.",
+  //   tags: ["Node.js", "Express", "Redis", "AWS"],
+  //   live: "#",
+  //   github: "#",
+  //   year: "2023",
+  //   type: "Backend",
+  // },
+  // {
+  //   number: "04",
+  //   title: "Open Source Lib",
+  //   description:
+  //     "A developer tool / utility library that [does something useful]. Used by X developers, featured on [platform]. Zero dependencies.",
+  //   tags: ["TypeScript", "Open Source", "npm"],
+  //   live: "#",
+  //   github: "#",
+  //   year: "2023",
+  //   type: "OSS",
+  // },
 ];
 
 const typeColors: Record<string, string> = {

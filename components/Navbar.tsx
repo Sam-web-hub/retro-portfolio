@@ -47,12 +47,12 @@ export default function Navbar() {
               {item.label}
             </a>
           ))}
-          <a
+          {/* <a
             href="/resume.pdf"
             className="font-mono text-xs uppercase tracking-widest border border-[#1a1209] px-3 py-1.5 hover:bg-[#1a1209] hover:text-[#f5f0e8] transition-colors duration-200"
           >
             Résumé
-          </a>
+          </a> */}
         </div>
       </div>
     </nav>
