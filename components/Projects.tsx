@@ -188,7 +188,7 @@ export default function Projects() {
           <p className="font-mono text-xs text-[#c4b89a] uppercase tracking-widest">
             More on{" "}
             <a
-              href="https://github.com"
+              href="https://github.com/Sam-web-hub"
               className="text-[#8b6914] hover:text-[#b84c1a] transition-colors"
             >
               GitHub →

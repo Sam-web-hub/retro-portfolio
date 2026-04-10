@@ -43,30 +43,16 @@ components/
   Contact.tsx      — Email CTA + social links (dark bg)
 ```
 
-## ✏️ Customization Checklist
-
-- [ ] Replace **"Your Name"** throughout all components
-- [ ] Update **email** in `Contact.tsx`
-- [ ] Update **social handles and links** in `Contact.tsx`
-- [ ] Replace **photo placeholder** in `About.tsx` with `<Image>` component
-- [ ] Update **bio text** in `About.tsx`
-- [ ] Fill in **quick facts** (location, education, experience)
-- [ ] Replace **project placeholder data** in `Projects.tsx`
-- [ ] Adjust **skill levels** in `Skills.tsx`
-- [ ] Add **resume PDF** to `public/resume.pdf`
-- [ ] Update **metadata** in `app/layout.tsx`
-- [ ] Update `"Available for Work"` stamp in `Hero.tsx` if needed
-
 ## 🎨 Theme Colors
 
-| Variable | Hex | Usage |
-|----------|-----|-------|
-| `paper` | `#f5f0e8` | Background |
-| `ink` | `#1a1209` | Text, dark bg |
-| `sepia` | `#8b6914` | Accents, labels |
-| `rust` | `#b84c1a` | CTAs, highlights |
-| `sage` | `#5a7a5a` | Frontend tags |
-| `faded` | `#c4b89a` | Borders, muted text |
+| Variable | Hex       | Usage               |
+| -------- | --------- | ------------------- |
+| `paper`  | `#f5f0e8` | Background          |
+| `ink`    | `#1a1209` | Text, dark bg       |
+| `sepia`  | `#8b6914` | Accents, labels     |
+| `rust`   | `#b84c1a` | CTAs, highlights    |
+| `sage`   | `#5a7a5a` | Frontend tags       |
+| `faded`  | `#c4b89a` | Borders, muted text |
 
 ## 🔧 Tech Stack
 
