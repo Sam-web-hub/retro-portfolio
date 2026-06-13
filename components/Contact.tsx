@@ -172,7 +172,7 @@ export default function Contact() {
           className={`mt-24 pt-8 border-t border-[#5a4a30] flex flex-col md:flex-row justify-between items-center gap-4 transition-all duration-700 delay-300 ${visible ? "opacity-100" : "opacity-0"}`}
         >
           <span className="font-display text-[#5a4a30] text-lg">
-            Your Name<span className="text-[#b84c1a]">.</span>
+            Shamiul Hasan<span className="text-[#b84c1a]">.</span>
           </span>
           <p className="font-mono text-xs text-[#5a4a30] text-center">
             Built with Next.js & Tailwind CSS — Designed with intention

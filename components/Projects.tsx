@@ -4,48 +4,48 @@ import { useEffect, useRef, useState } from "react";
 const projects = [
   {
     number: "01",
-    title: "Personality Test",
+    title: "Luxe Retail",
     description:
-      "A full-stack web app that lets users take a personality test and get insights. Built with React, Node.js, and PostgreSQL. Features include dynamic charts, and personalized recommendations.",
+      "Luxe Retail is a modern, high-performance e-commerce platform built to deliver a premium shopping experience. It features a stunning customer-facing storefront and a comprehensive administrative dashboard for store management.",
     tags: ["React", "Node.js", "PostgreSQL", "TypeScript"],
-    live: "https://personality-test-zeta-sand.vercel.app/",
-    github: "https://github.com/Sam-web-hub/personality-test",
+    live: "https://luxe-retail.vercel.app",
+    github: "https://github.com/Sam-web-hub/luxe-retail",
+    year: "2026",
+    type: "Full-Stack",
+  },
+  {
+    number: "02",
+    title: "Staymarket",
+    description:
+      "StayMarket is a modern, full-stack rental marketplace platform built with Next.js. It enables users to browse, search, and list rental properties, connect with hosts via a built-in messaging system, and manage their saved listings.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript", "Radix UI", "PostgreSQL"],
+    live: "https://staymarket-pi.vercel.app/explore",
+    github: "https://github.com/Sam-web-hub/alexandria",
     year: "2025",
     type: "Full-Stack",
   },
-  // {
-  //   number: "02",
-  //   title: "Project Beta",
-  //   description:
-  //     "A performant frontend application focused on [use case]. Emphasis on accessibility, animation, and responsive design across all breakpoints.",
-  //   tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-  //   live: "#",
-  //   github: "#",
-  //   year: "2024",
-  //   type: "Frontend",
-  // },
-  // {
-  //   number: "03",
-  //   title: "Project Gamma",
-  //   description:
-  //     "An API-first backend service powering [product]. Built with Express, Redis caching, and deployed on AWS with full CI/CD pipeline.",
-  //   tags: ["Node.js", "Express", "Redis", "AWS"],
-  //   live: "#",
-  //   github: "#",
-  //   year: "2023",
-  //   type: "Backend",
-  // },
-  // {
-  //   number: "04",
-  //   title: "Open Source Lib",
-  //   description:
-  //     "A developer tool / utility library that [does something useful]. Used by X developers, featured on [platform]. Zero dependencies.",
-  //   tags: ["TypeScript", "Open Source", "npm"],
-  //   live: "#",
-  //   github: "#",
-  //   year: "2023",
-  //   type: "OSS",
-  // },
+  {
+    number: "03",
+    title: "Cyberia",
+    description:
+      "A Next.js 14 full-stack message board application with email/password and social auth (Google + GitHub) using Better Auth and Drizzle ORM with PostgreSQL.",
+    tags: ["Next.js", "TypeScript", "Better Auth", "Drizzle ORM", "PostgreSQL"],
+    live: "https://cyberia-sandy.vercel.app",
+    github: "https://github.com/Sam-web-hub/message-board",
+    year: "2025",
+    type: "Full-Stack",
+  },
+  {
+    number: "04",
+    title: "Persona",
+    description:
+      "A modern, interactive personality assessment web application built with Next.js. The application provides a seamless user experience for taking personality tests, leveraging the Sentino API for evaluations, and displaying detailed results.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript", "Sentino API"],
+    live: "https://personality-test-zeta-sand.vercel.app",
+    github: "https://github.com/Sam-web-hub/personality-test",
+    year: "2025",
+    type: "Frontend",
+  },
 ];
 
 const typeColors: Record<string, string> = {
