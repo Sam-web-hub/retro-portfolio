@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
 
 export default function About() {
   const ref = useRef<HTMLElement>(null);
@@ -33,10 +32,10 @@ export default function About() {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-5 gap-16 items-start">
+        <div className="max-w-3xl">
           {/* Text */}
           <div
-            className={`md:col-span-3 space-y-6 transition-all duration-700 delay-100 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+            className={`space-y-6 transition-all duration-700 delay-100 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
           >
             <p className="font-body text-lg leading-relaxed text-[#2d2010]">
               Hi, I&apos;m a{" "}
@@ -82,35 +81,6 @@ export default function About() {
                   </li>
                 ))}
               </ul>
-            </div>
-          </div>
-
-          {/* Photo placeholder + decorations */}
-          <div
-            className={`md:col-span-2 transition-all duration-700 delay-200 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
-          >
-            <div className="relative">
-              {/* Shadow card */}
-              <div className="absolute inset-0 border border-[#c4b89a] transform translate-x-3 translate-y-3" />
-              {/* Photo box */}
-              <div className="relative border border-[#8b6914] bg-[#ede8de] aspect-[3/4] flex flex-col items-center justify-center gap-3">
-                <Image
-                  src="/profile.jfif"
-                  alt="Photo of Shamiul Hasan"
-                  className="object-cover"
-                  fill
-                />
-                {/* Corner marks */}
-                <div className="absolute top-2 left-2 w-4 h-4 border-t border-l border-[#8b6914]" />
-                <div className="absolute top-2 right-2 w-4 h-4 border-t border-r border-[#8b6914]" />
-                <div className="absolute bottom-2 left-2 w-4 h-4 border-b border-l border-[#8b6914]" />
-                <div className="absolute bottom-2 right-2 w-4 h-4 border-b border-r border-[#8b6914]" />
-              </div>
-
-              {/* Stamp */}
-              <div className="absolute -bottom-4 -right-4 stamp rotate-6">
-                Dev ✦
-              </div>
             </div>
           </div>
         </div>
