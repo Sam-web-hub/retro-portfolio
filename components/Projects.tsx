@@ -148,6 +148,8 @@ export default function Projects() {
               <div className="flex items-center gap-4 border-t border-[#c4b89a] pt-4">
                 <a
                   href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="font-mono text-xs uppercase tracking-wider text-[#1a1209] hover:text-[#b84c1a] transition-colors flex items-center gap-1.5"
                 >
                   <svg
@@ -161,6 +163,8 @@ export default function Projects() {
                 </a>
                 <a
                   href={project.live}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="font-mono text-xs uppercase tracking-wider text-[#1a1209] hover:text-[#b84c1a] transition-colors flex items-center gap-1.5"
                 >
                   <svg
@@ -189,6 +193,8 @@ export default function Projects() {
             More on{" "}
             <a
               href="https://github.com/Sam-web-hub"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#8b6914] hover:text-[#b84c1a] transition-colors"
             >
               GitHub →
