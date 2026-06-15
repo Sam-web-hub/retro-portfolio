@@ -175,11 +175,11 @@ export default function Contact() {
             Shamiul Hasan<span className="text-[#b84c1a]">.</span>
           </span>
           <p className="font-mono text-xs text-[#5a4a30] text-center">
-            Built with Next.js & Tailwind CSS — Designed with intention
+            Built with Next.js & Tailwind CSS
           </p>
-          <p className="font-mono text-xs text-[#5a4a30]">
+          {/* <p className="font-mono text-xs text-[#5a4a30]">
             © {new Date().getFullYear()}
-          </p>
+          </p> */}
         </div>
       </div>
     </section>

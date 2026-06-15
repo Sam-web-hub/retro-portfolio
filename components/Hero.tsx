@@ -64,7 +64,7 @@ export default function Hero() {
       />
 
       {/* Decorative corner marks */}
-      <div className="absolute top-24 left-8 font-mono text-[#c4b89a] text-xs opacity-60">
+      {/* <div className="absolute top-24 left-8 font-mono text-[#c4b89a] text-xs opacity-60">
         [0,0]
       </div>
       <div className="absolute top-24 right-8 font-mono text-[#c4b89a] text-xs opacity-60">
@@ -75,7 +75,7 @@ export default function Hero() {
       </div>
       <div className="absolute bottom-8 right-8 font-mono text-[#c4b89a] text-xs opacity-60">
         est. 2025 —
-      </div>
+      </div> */}
 
       {/* Decorative lines */}
       <div className="absolute left-1/2 top-0 w-px h-24 bg-gradient-to-b from-transparent to-[#c4b89a] opacity-40" />
@@ -84,9 +84,9 @@ export default function Hero() {
       {/* Main content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         {/* Stamp badge */}
-        <div className="flex justify-center mb-8 animate-fade-up">
+        {/* <div className="flex justify-center mb-8 animate-fade-up">
           <span className="stamp">Available for Work</span>
-        </div>
+        </div> */}
 
         {/* Eyebrow */}
         <p className="font-mono text-sm uppercase tracking-[0.3em] text-[#8b6914] mb-4 animate-fade-up-delay-1">

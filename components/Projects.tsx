@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 const projects = [
   {
@@ -12,17 +13,19 @@ const projects = [
     github: "https://github.com/Sam-web-hub/luxe-retail",
     year: "2026",
     type: "Full-Stack",
+    image: "/luxeretail.png",
   },
   {
     number: "02",
     title: "Staymarket",
     description:
       "StayMarket is a modern, full-stack rental marketplace platform built with Next.js. It enables users to browse, search, and list rental properties, connect with hosts via a built-in messaging system, and manage their saved listings.",
-    tags: ["Next.js", "Tailwind CSS", "TypeScript", "Radix UI", "PostgreSQL"],
+    tags: ["Next.js", "Tailwind CSS", "TypeScript", "ShadCN UI", "PostgreSQL"],
     live: "https://staymarket-pi.vercel.app/explore",
     github: "https://github.com/Sam-web-hub/alexandria",
     year: "2025",
     type: "Full-Stack",
+    image: "/staymarket.png",
   },
   {
     number: "03",
@@ -34,6 +37,7 @@ const projects = [
     github: "https://github.com/Sam-web-hub/message-board",
     year: "2025",
     type: "Full-Stack",
+    image: "/cyberia.png",
   },
   {
     number: "04",
@@ -45,6 +49,7 @@ const projects = [
     github: "https://github.com/Sam-web-hub/personality-test",
     year: "2025",
     type: "Frontend",
+    image: "/persona.png",
   },
 ];
 
@@ -98,28 +103,29 @@ export default function Projects() {
           {projects.map((project, i) => (
             <div
               key={project.number}
-              className={`project-card border border-[#c4b89a] bg-[#f5f0e8] p-6 relative transition-all duration-700 ${
+              className={`transition-all duration-700 ${
                 visible
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-8"
               }`}
               style={{ transitionDelay: `${i * 100 + 100}ms` }}
             >
-              {/* Top row */}
-              <div className="flex items-start justify-between mb-4">
-                <span className="font-mono text-3xl text-[#c4b89a] font-bold leading-none">
-                  {project.number}
-                </span>
-                <div className="flex items-center gap-2">
-                  <span
-                    className={`font-mono text-[10px] uppercase tracking-widest border px-2 py-0.5 ${typeColors[project.type]}`}
-                  >
-                    {project.type}
-                  </span>
-                  <span className="font-mono text-xs text-[#c4b89a]">
-                    {project.year}
+              <div className="project-card border border-[#c4b89a] bg-[#f5f0e8] p-6 relative h-full flex flex-col">
+                {/* Top row */}
+                <div className="flex items-start justify-between mb-4">
+                  <span className="font-mono text-3xl text-[#c4b89a] font-bold leading-none">
+                    {project.number}
                   </span>
                 </div>
+
+              {/* Project Image */}
+              <div className="mb-6 border border-[#c4b89a] overflow-hidden relative w-full h-48 sm:h-56">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="object-cover object-top"
+                />
               </div>
 
               {/* Title */}
@@ -181,6 +187,7 @@ export default function Projects() {
                   Live Demo
                 </a>
               </div>
+            </div>
             </div>
           ))}
         </div>

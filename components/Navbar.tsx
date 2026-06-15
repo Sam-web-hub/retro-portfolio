@@ -32,7 +32,7 @@ export default function Navbar() {
           href="#"
           className="font-display text-xl text-[#1a1209] tracking-wide hover:text-[#b84c1a] transition-colors"
         >
-          YN<span className="text-[#b84c1a]">.</span>
+          {/* YN<span className="text-[#b84c1a]">.</span> */}
         </a>
 
         {/* Nav links */}

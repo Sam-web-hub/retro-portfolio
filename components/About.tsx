@@ -42,20 +42,20 @@ export default function About() {
               <span className="text-[#b84c1a] italic">
                 full-stack developer
               </span>{" "}
-              with a deep love for the web — the kind that keeps you up at night
-              debugging CSS and somehow still thinking it&apos;s worth it.
+              focused on building fast, scalable, and user-centered web
+              applications. I enjoy transforming complex problems into clean,
+              intuitive experiences using modern technologies like React,
+              Next.js, TypeScript, and Node.js.
             </p>
             <p className="font-body text-base leading-relaxed text-[#5a4a30]">
-              I specialize in building clean, performant interfaces with React
-              and Next.js, paired with robust backends in Node.js and
-              TypeScript. I care deeply about the details — the
-              micro-interactions, the loading states, the edge cases nobody
-              asked for but everyone notices.
+              From crafting responsive interfaces to designing robust backend
+              systems, I care about every layer of the development process. My
+              approach combines technical precision with a strong attention to
+              user experience, ensuring products are not only functional but
+              enjoyable to use.
             </p>
             <p className="font-body text-base leading-relaxed text-[#5a4a30]">
-              When I&apos;m not pushing pixels, I&apos;m probably reading about
-              compilers, contributing to open source, or making a pot of
-              unnecessarily good coffee.
+              Always eager to learn and grow.
             </p>
 
             {/* Quick facts */}
@@ -66,7 +66,7 @@ export default function About() {
               <ul className="space-y-3">
                 {[
                   ["📍", "Location", "Dhaka, Bangladesh"],
-                  ["🎓", "Education", ""],
+                  ["🎓", "Education", "BSc in Applied Mathematics"],
                   ["💼", "Experience", "3+ years building for the web"],
                   ["🌱", "Currently learning", "React Native, Flutter"],
                 ].map(([icon, label, value]) => (
